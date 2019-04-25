@@ -17,10 +17,10 @@ public class Doors : MonoBehaviour {
 	}
 
 	void OnTriggerEnter(Collider other){
-		anim.SetBool ("open", true);
+		anim.SetBool ("DoorCycle", true);
 	}
 
 	void OnTriggerExit(Collider other){
-		anim.SetBool ("open", false);
+		anim.SetBool ("DoorCycle", false);
 	}
 }
