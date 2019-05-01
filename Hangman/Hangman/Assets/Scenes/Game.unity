@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427147, b: 0.56452364, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -248,7 +248,7 @@ TextMesh:
   m_Anchor: 1
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 61
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: ebed8637645dc9f4fa624aef9970b97e, type: 3}
@@ -294,8 +294,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5641325}
   m_LocalRotation: {x: 0.044607066, y: 0.011041638, z: 0.003936123, w: 0.9989359}
-  m_LocalPosition: {x: -62.4, y: 5.8, z: 70.3}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -62, y: 8, z: 70}
+  m_LocalScale: {x: 0.26116973, y: 0.2611698, z: 0.2611698}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -468,7 +468,7 @@ TextMesh:
   m_Anchor: 1
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 474
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: ebed8637645dc9f4fa624aef9970b97e, type: 3}
@@ -514,8 +514,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 107945361}
   m_LocalRotation: {x: 0.013211384, y: 0.78725106, z: 0.009959701, w: 0.6164107}
-  m_LocalPosition: {x: 139.9, y: 60.3, z: -6.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 131, y: 66, z: -5}
+  m_LocalScale: {x: 0.03397882, y: 0.03397883, z: 0.03397883}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -1405,7 +1405,7 @@ RectTransform:
   m_GameObject: {fileID: 495210967}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 146.80002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.6092894, y: 0.60928935, z: 0.60928935}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -1429,7 +1429,7 @@ TextMesh:
   m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 36
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 12800000, guid: ebed8637645dc9f4fa624aef9970b97e, type: 3}
