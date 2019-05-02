@@ -22,6 +22,9 @@ GameObject:
   - component: {fileID: 33717961581984406}
   - component: {fileID: 23000271356848662}
   - component: {fileID: 95910192984296368}
+  - component: {fileID: 135097561674795104}
+  - component: {fileID: 114374757142915146}
+  - component: {fileID: 65123471931266794}
   m_Layer: 0
   m_Name: Chair
   m_TagString: Untagged
@@ -35,9 +38,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1768467815495966}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 5.7446938, y: -1.214, z: -17.523556}
+  m_LocalScale: {x: 1.2026379, y: 1.2026379, z: 1.2026379}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -82,6 +85,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1768467815495966}
   m_Mesh: {fileID: 4300004, guid: dc6f2ba20eccc874aab6e96622ba29f5, type: 3}
+--- !u!65 &65123471931266794
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768467815495966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4340976, y: 0.80614483, z: 0.49505472}
+  m_Center: {x: -0.000000037252903, y: 0.40639636, z: -0.0000005438924}
 --- !u!95 &95910192984296368
 Animator:
   serializedVersion: 3
@@ -99,3 +114,27 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114374757142915146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768467815495966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fcb4f924ec0acb43ad52cd96acbafbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chairText: {fileID: 0}
+--- !u!135 &135097561674795104
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1768467815495966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.84
+  m_Center: {x: -0.000000037252903, y: 0.40639636, z: -0.0000005438924}
